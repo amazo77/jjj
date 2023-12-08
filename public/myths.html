@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <style>
+    /* Ajoutez ces styles pour les bords lisses et le centrage du contenu du mythe */
+    .myth-item {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .myth-box {
+      background-color: #fff; /* Définissez votre couleur de fond souhaitée */
+      color: #000; /* Définissez la couleur du texte en noir */
+      padding: 20px;
+      border-radius: 15px; /* Ajustez le border-radius pour contrôler la douceur des bords */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoutez une ombre subtile */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+  <title>Your Climate App - Solutions</title>
+</head>
+<body>
+  <nav>
+    <div class="logo animate__animated animate__fadeInDown">
+      <img src="image/logo.png" alt="Logo de votre application climatique">
+    </div>
+    <ul class="nav-links animate__animated animate__fadeIn">
+      <li><a href="/">Home</a></li>
+      <li><a href="/solutions">Solutions</a></li>
+      <li><a href="/mythes">Myths</a></li>
+      <li><a href="/about">About Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="apple-myths slider">
+    
+
+    <!-- Mythe 2 -->
+    <div class="myth-item">
+      <div class="myth-bg" style="background-image: url('chemin/vers/image-mythe2.jpg');"></div>
+      <div class="myth-box">
+        <h3>Les modèles climatiques ne sont pas fiables</h3>
+        <p>Factuel : Les modèles climatiques sont des outils essentiels pour comprendre et projeter le changement climatique. Bien qu'ils présentent des incertitudes, plusieurs modèles de différents groupes de recherche montrent constamment des tendances futures similaires, fournissant une base fiable pour l'élaboration de politiques.</p>
+      </div>
+    </div>
+
+    <!-- Mythe 3 -->
+    <div class="myth-item">
+      <div class="myth-bg" style="background-image: url('chemin/vers/image-mythe3.jpg');"></div>
+      <div class="myth-box">
+        <h3>Il est trop tard pour agir</h3>
+        <p>Factuel : Bien que certains impacts du changement climatique se produisent déjà, des mesures significatives pour réduire les émissions de gaz à effet de serre peuvent encore atténuer les effets futurs et s'adapter aux changements inévitables. Chaque effort visant à réduire les émissions peut faire une différence.</p>
+      </div>
+    </div>
+
+    <!-- Mythe 4 -->
+    <div class="myth-item">
+      <div class="myth-bg" style="background-image: url('chemin/vers/image-mythe4.jpg');"></div>
+      <div class="myth-box">
+        <h3>Le dioxyde de carbone n'est pas un polluant</h3>
+        <p>Factuel : Bien que le dioxyde de carbone soit un composant naturel de l'atmosphère, les activités humaines, en particulier la combustion de combustibles fossiles, ont augmenté de manière significative sa concentration. Des niveaux élevés contribuent à l'effet de serre, entraînant le réchauffement climatique et le changement climatique.</p>
+      </div>
+    </div>
+
+    <!-- Mythe 5 -->
+    <div class="myth-item">
+      <div class="myth-bg" style="background-image: url('chemin/vers/image-mythe5.jpg');"></div>
+      <div class="myth-box">
+        <h3>Le soleil cause le réchauffement climatique</h3>
+        <p>Factuel : Les changements dans le rayonnement solaire influent sur le climat, mais la tendance actuelle au réchauffement ne peut pas s'expliquer par les variations de l'émission solaire seule. Les preuves scientifiques indiquent que les activités humaines sont le moteur principal du réchauffement climatique récent.</p>
+      </div>
+    </div>
+
+    <!-- Ajoutez plus de mythes au besoin -->
+  </section>
+
+  <!-- En-tête inférieur pour le contact -->
+  <section id="contact-header" class="apple-contact">
+    <h2>Contactez-nous</h2>
+    <p>Vous avez des questions ou des commentaires ? Nous serions ravis d'avoir de vos nouvelles. Contactez-nous en utilisant les informations de contact ci-dessous.</p>
+  </section>
+  
+  <!-- Réutilisez le pied de page de index.html -->
+  <footer>
+    <p>&copy; 2023 Votre application climatique. Tous droits réservés.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

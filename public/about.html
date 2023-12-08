@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- Include Font Awesome for the bars icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <title>Your Climate App - About Us</title>
+</head>
+<body>
+  <nav>
+    <div class="logo animate__animated animate__fadeInDown">
+      <img src="image/logo.png" alt="Your Climate App Logo">
+    </div>
+    <ul class="nav-links animate__animated animate__fadeIn">
+      <li><a href="/">Home</a></li>
+      <li><a href="/solutions">Solutions</a></li>
+      <li><a href="/myths">Myths</a></li>
+      <li><a href="/about">About Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="apple-about">
+    <h2>À propos de nous</h2>
+  
+    <!-- Contenu À propos de nous -->
+    <p>C'est l'endroit où vous pouvez fournir des informations sur votre organisation, votre équipe et votre mission.</p>
+  
+    <!-- Ajoutez plus de contenu au besoin -->
+  </section>
+  
+  <!-- En-tête inférieur pour le contact -->
+  <section id="contact-header" class="apple-contact">
+    <h2>Contactez-nous</h2>
+    <p>Vous avez des questions ou des commentaires ? Nous serions ravis de vous entendre. Contactez-nous en utilisant les informations de contact ci-dessous.</p>
+    <p>Email: <a href="mailto:contact@votreappclimatique.com">contact@votreappclimatique.com</a></p>
+    <p>Téléphone: +33 1 23 45 67 89</p>
+  </section>
+  
+  
+  <!-- Réutilisez le pied de page de index.html -->
+  <footer>
+    <p>&copy; 2023 Votre Application Climatique. Tous droits réservés.</p>
+  </footer>
+  
+  <!-- Ajoutez ces lignes avant la balise de fermeture body pour inclure Slick JS et le script du curseur -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    // Initialisez le curseur
+    $(document).ready(function(){
+      $('.slider').slick();
+    });
+  </script>
+  
+  <script src="app.js"></script>
+  </body>
+  </html>
+  
